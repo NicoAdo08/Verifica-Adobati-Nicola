@@ -5,13 +5,13 @@ public abstract class personaggio {
     protected int puntiVita;
     protected int livello;
     
-    //Costruttore per inizializzare gli attributi della classe personaggio
+    //Metodo utilizzato per inizializzare gli attributi della classe personaggio
     public personaggio(String nome, int puntiVita, int livello) {
         this.nome=nome;
         this.puntiVita=puntiVita;
         this.livello=livello;
     }
-    //Metodo utilizzato per  prender il nome del personaggio
+    //Metodo utilizzato per prendere il nome del personaggio
     public String getNome() {
         return nome;
     }
@@ -23,7 +23,7 @@ public abstract class personaggio {
     public int getLivello() {
         return livello;
     }
-    
+
     //Metodo astratto per attaccare
     public abstract void attacca();
     //Metodo astratto per difendere
