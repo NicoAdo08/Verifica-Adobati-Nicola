@@ -8,13 +8,13 @@ public class mago extends personaggio {
 
     //Implementazione del metodo attacca() per il mago
     @Override
-    public String attacca(){
-        return nome+"attacca";
+    public void attacca(){
+        System.out.println(nome+"attacca");
     }
 
     //Implementazione del metodo difendi() per il mago
     @Override
-    public String difendi(){
-        return nome+"si difende";
+    public void difendi(){
+        System.out.println(nome+"si difende");
     }
 }

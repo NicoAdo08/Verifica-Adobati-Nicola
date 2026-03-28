@@ -11,12 +11,21 @@ public abstract class personaggio {
         this.puntiVita=puntiVita;
         this.livello=livello;
     }
+    //Metodo utilizzato per  prender il nome del personaggio
+    public String getNome() {
+        return nome;
+    }
+    //Metodo utilizzato per prendere i punti vita del personaggio
+    public int getPuntiVita() {
+        return puntiVita;
+    }
+    //Metodo utilizzato per prendere il livello del personaggio
+    public int getLivello() {
+        return livello;
+    }
+    
     //Metodo astratto per attaccare
-    public String attacca() {
-        return nome + "attacca";
-    }
+    public abstract void attacca();
     //Metodo astratto per difendere
-    public String difendi() {
-        return nome + "si difende";
-    }
+    public abstract void difendi();
 }
