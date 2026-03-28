@@ -1,4 +1,4 @@
-package personaggio;
+package giocoPersonaggi;
 
 public class guerriero extends personaggio {
     
