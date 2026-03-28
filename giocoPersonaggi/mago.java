@@ -9,12 +9,12 @@ public class mago extends personaggio {
     //Implementazione del metodo attacca() per il mago
     @Override
     public void attacca(){
-        System.out.println(nome + "attacca");
+        System.out.println(nome+" attacca");
     }
 
     //Implementazione del metodo difendi() per il mago
     @Override
     public void difendi(){
-        System.out.println(nome + "si difende");
+        System.out.println(nome+" si difende");
     }
 }
